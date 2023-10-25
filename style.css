@@ -1,0 +1,59 @@
+html,
+body {}
+
+.input-wrapper {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.input-wrapper form {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.input-wrapper form input {
+	flex-grow: 1;
+	height: 40px;
+}
+
+.input-wrapper form button {
+	appearance: none;
+	border: none;
+	background: #bad6eb;
+	min-width: 140px;
+}
+
+.input-wrapper form input,
+.input-wrapper form button {
+	font-size: 18px;
+}
+
+.input-wrapper form input:not(button),
+.messages,
+.messages .message {
+	border: 5px solid #bad6eb
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	gap: 15px;
+}
+
+.messages .message {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.system {
+	align-self: flex-start;
+}
+
+.mine {
+	align-self: flex-end;
+}
