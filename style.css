@@ -39,6 +39,10 @@
 	gap: 15px;
 }
 
+.messages:empty {
+	display: none;
+}
+
 .messages .message {
 	display: flex;
 	align-items: center;
